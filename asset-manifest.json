@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/GyanMandirCoatchingCenter/static/css/main.16065a63.css",
+    "main.js": "/GyanMandirCoatchingCenter/static/js/main.dedc5a30.js",
+    "static/js/787.849e2440.chunk.js": "/GyanMandirCoatchingCenter/static/js/787.849e2440.chunk.js",
+    "static/media/IMG5.jpg": "/GyanMandirCoatchingCenter/static/media/IMG5.4d586eb366dca39065b4.jpg",
+    "static/media/IMG6.jpg": "/GyanMandirCoatchingCenter/static/media/IMG6.129194b29ea990d452ce.jpg",
+    "static/media/IMG3.jpg": "/GyanMandirCoatchingCenter/static/media/IMG3.583d7cc4c438898dafc8.jpg",
+    "static/media/IMG1.jpg": "/GyanMandirCoatchingCenter/static/media/IMG1.c20e320f697d0a429ff5.jpg",
+    "static/media/IMG2.jpg": "/GyanMandirCoatchingCenter/static/media/IMG2.9f1d0649946a1c426d49.jpg",
+    "static/media/IMG4.jpg": "/GyanMandirCoatchingCenter/static/media/IMG4.3bcd8fc5706ac9cac12c.jpg",
+    "static/media/GMCC.png": "/GyanMandirCoatchingCenter/static/media/GMCC.e9b73c8d1f322f9e4702.png",
+    "index.html": "/GyanMandirCoatchingCenter/index.html",
+    "main.16065a63.css.map": "/GyanMandirCoatchingCenter/static/css/main.16065a63.css.map",
+    "main.dedc5a30.js.map": "/GyanMandirCoatchingCenter/static/js/main.dedc5a30.js.map",
+    "787.849e2440.chunk.js.map": "/GyanMandirCoatchingCenter/static/js/787.849e2440.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.16065a63.css",
+    "static/js/main.dedc5a30.js"
+  ]
+}
