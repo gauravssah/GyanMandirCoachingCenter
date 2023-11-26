@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* ------------Header.js------------ */
+.topheaderandnav {
+    z-index: 99;
+    position: sticky;
+    top: 0;
+}
+
+.topHeader {
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    padding: 1rem 0rem;
+
+}
+
+.topHeader .logo {
+    width: 6%;
+    border-radius: 100px;
+    overflow: hidden;
+    box-shadow: 1px 1px 5px #706060;
+}
+
+.topHeader .logo img {
+    width: 100%;
+}
+
+.topHeader .header {
+    text-align: center;
+}
+
+.topHeader .header h1 {
+    font-weight: 700;
+
+}
+
+
+/* ------------Navbar.js------------ */
+
+.navbarContainer {
+    background-color: #5400ff;
+}
+
+.navbarContainer nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 1rem 0;
+}
+
+.navbarContainer nav {
+    width: 70%;
+    margin: auto;
+}
+
+.navbarContainer a {
+    font-size: 2rem;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-weight: 600;
+    position: relative;
+}
+
+.navbarContainer a::after {
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 5px;
+    background-color: #ffffff;
+    display: block;
+    border-radius: 100px;
+    transition: width 0.4s ease-in-out;
+}
+
+.navbarContainer a:hover::after {
+    width: 85%;
+    transition: width 0.4s ease-in-out;
+}
+
+
+
+
+/* ------------Carousel.js------------ */
+
+.crousalcontainer {
+    /* background-color: red; */
+    width: 100%;
+    height: 80%;
+    overflow: hidden;
+    position: relative;
+}
+
+.crousalcontainer::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: #00000059;
+    top: 0;
+}
+
+.imagescontainer {
+    width: 50%;
+    /* background-color: aqua; */
+    height: 100%;
+    display: flex;
+    position: relative;
+    transform: translateX(0%);
+    /* transition: transform 3s ease; */
+    animation: transfromTranslate 20s ease infinite;
+}
+
+.imagescontainer img {
+    width: 100%;
+}
+
+@keyframes transfromTranslate {
+    0% {
+        transform: translateX(-0%);
+    }
+
+    25% {
+        transform: translateX(-200%);
+    }
+
+    50% {
+        transform: translateX(-400%);
+    }
+
+    75% {
+        transform: translateX(-200%);
+    }
+
+    90% {
+        transform: translateX(-100%);
+    }
+
+    100% {
+        transform: translateX(0%);
+    }
+}
+
+.shortDetails {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    width: 80%;
+    z-index: 1;
+}
+
+.shortDetails h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    margin-bottom: 3rem;
+}
+
+.shortDetails p {
+    font-size: 1.5rem;
+}
+
+
+
+/* ------------About.js------------ */
+
+.aboutcontainer {
+    width: 100%;
+    /* background-color: red; */
+    text-align: center;
+    margin: 2rem 0rem;
+}
+
+.aboutcontainer h1 {
+    font-size: 3rem;
+}
+
+.aboutus {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 90%;
+    margin: 2rem auto;
+}
+
+.imgcontainer {
+    /* border: 2px solid pink; */
+    width: 40%;
+}
+
+.imgcontainer img {
+    width: 100%;
+}
+
+.tetxcontainer {
+    /* border: 2px solid rgb(151, 13, 36); */
+    width: 55%;
+}
+
+.tetxcontainer p {
+    font-size: 2rem;
+}
+
+.readmorebtn {
+    font-size: 1.5rem;
+    padding: 0.5rem 1rem;
+    background: none;
+    font-weight: 500;
+    color: #5400ff;
+    border: 2px solid black;
+    outline: none;
+    border-radius: 50px;
+}
+
+.readmorebtn:hover {
+    background-color: #5400ff;
+    color: white;
+
+}
